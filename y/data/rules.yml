@@ -1,0 +1,58 @@
+version: "3.1"
+
+rules:
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Thank response
+  steps:
+  - intent: thank
+  - action: utter_thanks
+
+- rule: Goodbye response
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Emergency handling
+  steps:
+  - intent: emergency
+  - action: utter_emergency_prompt
+  - action: action_handle_emergency
+
+- rule: Sleep help
+  steps:
+  - intent: sleep_help
+  - action: utter_sleep_help
+  - action: action_handle_sleep
+
+- rule: Diet help
+  steps:
+  - intent: diet_help
+  - action: utter_diet_help
+  - action: action_handle_diet
+
+- rule: Hydration help
+  steps:
+  - intent: hydration_help
+  - action: utter_hydration_help
+  - action: action_handle_hydration
+
+- rule: Fitness help
+  steps:
+  - intent: fitness_help
+  - action: utter_fitness_help
+  - action: action_handle_fitness
+
+- rule: Mental health help
+  steps:
+  - intent: mental_health_help
+  - action: utter_mental_health_help
+  - action: action_handle_mental_health
+
+- rule: Symptom reporting fallback
+  steps:
+  - intent: report_symptom
+  - action: action_handle_symptoms

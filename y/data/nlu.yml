@@ -1,0 +1,108 @@
+version: "3.1"
+
+nlu:
+- intent: report_symptom
+  examples: |
+    - I have [fever](symptom)
+    - I have [cold](symptom)
+    - I have [headache](symptom)
+    - I have [back pain](symptom)
+    - I have [neck pain](symptom)
+    - I have [hand cut](symptom)
+    - I have [gum swelling](symptom)
+    - I feel [tired](symptom)
+    - I have [fatigue](symptom)
+    - I feel [stressed](symptom)
+    - I have [anxiety](symptom)
+    - I feel [dehydrated](symptom)
+    - I can't [sleep](symptom)
+    - I have [insomnia](symptom)
+    - I have [mild](severity) [fever](symptom)
+    - I have [severe](severity) [headache](symptom)
+    - I have [fever](symptom) for [3 days](duration)
+    - I have [cold](symptom) since [yesterday](duration)
+    - [My back](body_part) hurts
+    - [My neck](body_part) is stiff
+    - [My gums](body_part) are swollen
+    - I have [back pain](symptom) for [2 weeks](duration)
+    - [Severe](severity) [stress](symptom) at work
+
+- intent: emergency
+  examples: |
+    - heart attack
+    - chest pain
+    - not breathing
+    - unconscious
+    - severe bleeding
+    - someone collapsed
+    - need CPR
+    - stroke symptoms
+    - heavy bleeding
+    - choking
+
+- intent: sleep_help
+  examples: |
+    - I can't sleep
+    - help with insomnia
+    - sleep problems
+    - restless at night
+    - tips for better sleep
+    - waking up frequently
+
+- intent: diet_help
+  examples: |
+    - diet advice
+    - nutrition tips
+    - healthy eating
+    - balanced diet
+    - what should I eat
+    - meal planning
+
+- intent: hydration_help
+  examples: |
+    - hydration tips
+    - how much water
+    - I'm dehydrated
+    - drink water advice
+    - dry mouth
+
+- intent: fitness_help
+  examples: |
+    - exercise suggestions
+    - workout routine
+    - fitness tips
+    - how to stay active
+    - yoga for beginners
+    - walking benefits
+
+- intent: mental_health_help
+  examples: |
+    - stress management
+    - anxiety help
+    - mental wellness
+    - feeling overwhelmed
+    - relaxation techniques
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - namaste
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - shukriya
+    - dhanyavaad
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - take care

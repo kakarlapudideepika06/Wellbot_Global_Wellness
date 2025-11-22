@@ -1,0 +1,99 @@
+version: "3.1"
+
+intents:
+  - report_symptom
+  - emergency
+  - sleep_help
+  - diet_help
+  - hydration_help
+  - fitness_help
+  - mental_health_help
+  - greet
+  - thank
+  - goodbye
+
+entities:
+  - symptom
+  - severity
+  - duration
+  - body_part
+
+slots:
+  symptom:
+    type: list
+    mappings:
+      - type: from_entity
+        entity: symptom
+
+  severity:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: severity
+
+  duration:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: duration
+
+  body_part:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: body_part
+
+  detected_language:
+    type: text
+    initial_value: "English"
+    mappings:
+      - type: custom
+
+forms:
+  symptom_form:
+    required_slots:
+      - symptom
+
+responses:
+  utter_greet:
+  - text: "Hey! 👋 I'm your wellness buddy — how can I help you today?"
+
+  utter_thanks:
+  - text: "You're welcome! 😊 Take care and let me know if you need anything else."
+
+  utter_goodbye:
+  - text: "Goodbye! Stay healthy and take care of yourself! 💙"
+
+  utter_emergency_prompt:
+  - text: "🚨 This sounds serious! Please call emergency services (112/108) immediately. I'll also provide first-aid guidance."
+
+  utter_sleep_help:
+  - text: "I can help with sleep issues! Let me share some tips for better sleep quality."
+
+  utter_diet_help:
+  - text: "Nutrition is key to wellness! Here's some guidance on healthy eating."
+
+  utter_hydration_help:
+  - text: "Staying hydrated is crucial! Let me share some hydration tips."
+
+  utter_fitness_help:
+  - text: "Great that you're thinking about fitness! Here are some exercise suggestions."
+
+  utter_mental_health_help:
+  - text: "Mental wellness is important! Let me share some stress management techniques."
+
+  utter_ask_symptom:
+  - text: "Please describe your symptoms. For example: 'I have fever and headache'"
+
+actions:
+  - action_handle_symptoms
+  - action_handle_emergency
+  - action_handle_sleep
+  - action_handle_diet
+  - action_handle_hydration
+  - action_handle_fitness
+  - action_handle_mental_health
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

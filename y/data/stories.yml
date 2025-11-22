@@ -1,0 +1,58 @@
+version: "3.1"
+
+stories:
+- story: user reports symptoms
+  steps:
+  - intent: report_symptom
+  - action: action_handle_symptoms
+
+- story: emergency situation
+  steps:
+  - intent: emergency
+  - action: utter_emergency_prompt
+  - action: action_handle_emergency
+
+- story: sleep help request
+  steps:
+  - intent: sleep_help
+  - action: utter_sleep_help
+  - action: action_handle_sleep
+
+- story: diet help request
+  steps:
+  - intent: diet_help
+  - action: utter_diet_help
+  - action: action_handle_diet
+
+- story: hydration help request
+  steps:
+  - intent: hydration_help
+  - action: utter_hydration_help
+  - action: action_handle_hydration
+
+- story: fitness help request
+  steps:
+  - intent: fitness_help
+  - action: utter_fitness_help
+  - action: action_handle_fitness
+
+- story: mental health help request
+  steps:
+  - intent: mental_health_help
+  - action: utter_mental_health_help
+  - action: action_handle_mental_health
+
+- story: greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: thank you
+  steps:
+  - intent: thank
+  - action: utter_thanks
