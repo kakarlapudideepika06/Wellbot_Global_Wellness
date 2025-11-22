@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+# ------------------- REPORT SYMPTOM (multi-entity) -------------------
+- intent: report_symptom
+  examples: |
+    - I have [fever](symptom)
+    - I have [cold](symptom)
+    - I have [headache](symptom)
+    - I have [back pain](symptom)
+    - I have [neck pain](symptom)
+    - I have a [hand cut](symptom)
+    - I’m having [fever](symptom) and [cold](symptom) for [4 days](duration)
+    - [Cold](symptom) and [fever](symptom) since [yesterday](duration)
+    - I’ve had [back pain](symptom) for [2 weeks](duration)
+    - I’m not sleeping well for [3 nights](duration)
+    - My [gums](body_part) are [swollen](symptom)
+    - I have [sore throat](symptom)
+    - I feel [tired](symptom)
+    - I have [mild](severity) [fever](symptom)
+    - I have [fever](symptom) for [3 days](duration)
+    - I have [cold](symptom) and [fever](symptom)
+    - I have [back pain](symptom) since [yesterday](duration)
+    - [My neck](body_part) hurts
+    - [My hand](body_part) is cut
+    - I am bleeding from my [hand](body_part)
+    - [Severe](severity) [headache](symptom)
+    - I can't sleep for [2 nights](duration)
+    - I'm not drinking enough water, I'm [dehydration](symptom)
+    - I feel [weak](symptom)
+
+# ------------------- EMERGENCY -------------------
+- intent: emergency
+  examples: |
+    - someone collapsed and is not breathing
+    - I think this is a [heart attack](symptom)
+    - severe [chest pain](symptom)
+    - person is [unconscious](symptom)
+    - there is heavy [bleeding](symptom)
+    - call emergency it's an [emergency](symptom)
+    - person not breathing and [unconscious](symptom)
+
+# ------------------- LIFESTYLE / WELLNESS -------------------
+- intent: sleep_help
+  examples: |
+    - I can't sleep
+    - ways to sleep better
+    - help for [insomnia](symptom)
+    - improve [sleep](topic)
+    - sleep tips
+
+- intent: diet_help
+  examples: |
+    - what should I eat
+    - suggest a [balanced diet](topic)
+    - nutrition tips
+    - healthy meal ideas
+    - diet for energy
+
+- intent: hydration_help
+  examples: |
+    - how much water should I drink
+    - I'm dehydrated
+    - hydration tips
+    - drink water advice
+
+- intent: fitness_help
+  examples: |
+    - exercise suggestions
+    - beginner workout
+    - how to stay active
+    - yoga tips
+
+# ------------------- GREET / THANK / GOODBYE -------------------
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - namaste
+    - good morning
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - shukriya
+    - dhanyavaad
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you

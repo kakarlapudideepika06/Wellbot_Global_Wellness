@@ -1,0 +1,147 @@
+{
+  "cold": {
+    "keywords": ["cold", "sneezing", "runny nose", "blocked nose", "cough", "sore throat"],
+    "description": "The common cold is a mild viral infection affecting the nose and throat. It spreads through droplets, shared surfaces, or close contact.",
+    "remedy": "Drink warm fluids, inhale steam, rest well, and avoid cold drinks. Seek a doctor if symptoms last more than a week.",
+    "prevention": "Wash hands regularly, avoid touching your face, and maintain distance from sick individuals.",
+    "source": "WHO – Respiratory Infections: https://www.who.int/health-topics/common-cold"
+  },
+
+  "fever": {
+    "keywords": ["fever", "temperature", "high temperature", "body heat"],
+    "description": "Fever is a rise in body temperature usually caused by infection. It is the body's natural way to fight germs.",
+    "remedy": "Stay hydrated, rest, take paracetamol if needed, and monitor temperature. Seek medical help if fever lasts more than 3 days.",
+    "prevention": "Maintain hygiene, drink clean water, and avoid contact with infected persons.",
+    "source": "WHO – General Health: https://www.who.int/health-topics/fever"
+  },
+
+  "back pain": {
+    "keywords": ["back pain", "lower back pain", "spine pain", "backache"],
+    "description": "Back pain is commonly caused by muscle strain, poor posture, or long hours of sitting.",
+    "remedy": "Stretch gently, maintain posture, use a firm mattress, and apply warm compresses.",
+    "prevention": "Exercise regularly, avoid heavy lifting, and sit upright with back support.",
+    "source": "WHO – Musculoskeletal Health: https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions"
+  },
+
+  "neck pain": {
+    "keywords": ["neck pain", "stiff neck", "neck strain", "neck discomfort"],
+    "description": "Neck pain often arises from poor posture, sleeping incorrectly, or stress.",
+    "remedy": "Stretch slowly, rest the neck, apply a warm cloth, and avoid long screen time.",
+    "prevention": "Maintain proper posture and take regular breaks while working.",
+    "source": "WHO – Musculoskeletal Health: https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions"
+  },
+
+
+
+  "headache": {
+    "keywords": ["headache", "head pain", "migraine", "throbbing head", "pounding pain"],
+    "description": "Headaches are a common discomfort caused by stress, dehydration, eye strain, or lack of sleep.",
+    "remedy": "Drink water, rest in a quiet dark room, avoid screen time, and apply a cold or warm compress.",
+    "prevention": "Stay hydrated, manage stress, maintain regular sleep schedules, and avoid skipping meals.",
+    "source": "WHO – Neurological Conditions: https://www.who.int/health-topics/headache-disorders"
+  },
+
+  "stomach pain": {
+    "keywords": ["stomach pain", "indigestion", "gas", "abdominal pain"],
+    "description": "Stomach pain is usually caused by indigestion, gas, or eating unhygienic food.",
+    "remedy": "Drink warm water, eat light foods, avoid spicy or oily meals, and rest. Seek medical help if pain worsens.",
+    "prevention": "Wash hands, avoid street food, and eat freshly cooked meals.",
+    "source": "WHO – Digestive Health: https://www.who.int/health-topics/diarrhoea"
+  },
+
+  "skin rashes": {
+    "keywords": ["rash", "skin irritation", "itchiness", "red patches"],
+    "description": "Skin rashes may appear due to allergies, heat, pollution, or mild infections.",
+    "remedy": "Keep the area clean, avoid scratching, apply aloe vera or cool compress.",
+    "prevention": "Use clean clothing, avoid harsh chemicals, and maintain good hygiene.",
+    "source": "WHO – Skin Health: https://www.who.int/health-topics/dermatitis"
+  },
+
+  "hydration": {
+    "keywords": ["hydration", "water", "dehydration", "thirst", "drink water"],
+    "description": "Proper hydration supports every function of the body including circulation and temperature control.",
+    "remedy": "Drink 6–8 glasses of water daily and increase intake during heat or exercise.",
+    "prevention": "Carry water outdoors and avoid caffeinated or sugary drinks.",
+    "source": "WHO – Nutrition: https://www.who.int/health-topics/nutrition"
+  },
+
+  "nutrition": {
+    "keywords": ["healthy food", "nutrition", "diet", "balanced diet"],
+    "description": "Good nutrition helps the body stay energized, fight infections, and maintain healthy growth.",
+    "remedy": "Eat fruits, vegetables, whole grains, proteins, and avoid excess sugar or processed foods.",
+    "prevention": "Plan meals and include natural fiber-rich foods regularly.",
+    "source": "WHO – Healthy Diet: https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+  },
+
+  "mental health": {
+    "keywords": ["mental health", "depression", "stress", "anxiety", "sadness"],
+    "description": "Mental health affects how we think, feel, and handle stress. It is essential for overall well-being.",
+    "remedy": "Talk to trusted people, practice relaxation, take breaks, and seek help if distress continues.",
+    "prevention": "Maintain sleep schedule, exercise, and limit screen time.",
+    "source": "WHO – Mental Health: https://www.who.int/health-topics/mental-health"
+  },
+
+  "stress": {
+    "keywords": ["stress", "tension", "pressure", "overthinking"],
+    "description": "Stress is the body’s response to pressure. Long-term stress can affect both physical and mental health.",
+    "remedy": "Practice deep breathing, meditation, short breaks, and light exercise.",
+    "prevention": "Create balance between work and rest and maintain daily routines.",
+    "source": "WHO – Mental Wellness: https://www.who.int/news-room/fact-sheets/detail/stress"
+  },
+
+  "anxiety": {
+    "keywords": ["anxiety", "panic", "nervous", "fear"],
+    "description": "Anxiety is a feeling of fear or discomfort and can affect sleep and concentration.",
+    "remedy": "Do breathing exercises, avoid caffeine, and engage in calming activities.",
+    "prevention": "Practice positive routines and stay physically active.",
+    "source": "WHO – Mental Wellness: https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders"
+  },
+
+  "emergency": {
+    "keywords": ["emergency", "serious condition", "urgent help", "life threatening"],
+    "description": "Emergencies include severe injury, unconsciousness, chest pain, or major bleeding.",
+    "remedy": "Stay calm, ensure safety, call emergency numbers (112/108), and provide first aid if trained.",
+    "prevention": "Learn basic first-aid skills and avoid risky situations.",
+    "source": "WHO – Emergency Care: https://www.who.int/health-topics/emergencies"
+  },
+
+  "cpr": {
+    "keywords": ["cpr", "cardiopulmonary resuscitation", "not breathing", "no pulse"],
+    "description": "CPR is a lifesaving technique used when a person is not breathing or has no heartbeat.",
+    "remedy": "Call emergency services immediately. Push hard and fast in the chest at 100–120 compressions/min.",
+    "prevention": "Take certified CPR training and keep emergency numbers handy.",
+    "source": "WHO – Life Support: https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)"
+  },
+
+  "fatigue": {
+    "keywords": ["fatigue", "tired", "weak", "no energy"],
+    "description": "Fatigue is extreme tiredness often caused by overwork, dehydration, or poor sleep.",
+    "remedy": "Rest well, stay hydrated, and eat energy-rich foods like bananas and nuts.",
+    "prevention": "Maintain regular sleep and hydration.",
+    "source": "WHO – General Health: https://www.who.int/health-topics/fatigue"
+  },
+
+  "injuries": {
+    "keywords": ["injury", "wound", "cut", "fall", "scrape"],
+    "description": "Minor injuries include cuts, scrapes, and bruises from daily accidents.",
+    "remedy": "Clean with water, apply antiseptic, use a bandage, and avoid touching the wound.",
+    "prevention": "Wear protective gear when needed and keep surroundings safe.",
+    "source": "WHO – First Aid: https://www.who.int/health-topics/injuries"
+  },
+
+  "burns": {
+    "keywords": ["burn", "hot water burn", "fire injury"],
+    "description": "Burns damage the skin due to heat, chemicals, or electricity.",
+    "remedy": "Run cool water over the burn for 20 minutes. Do NOT apply ice, oil, or toothpaste.",
+    "prevention": "Be careful with hot liquids and keep children away from stoves.",
+    "source": "WHO – Burns Management: https://www.who.int/health-topics/burns"
+  },
+
+  "first aid": {
+    "keywords": ["first aid", "emergency help", "basic care"],
+    "description": "First aid offers immediate support for injuries or sudden illness.",
+    "remedy": "Stop bleeding with pressure, clean wounds, support breathing, and stay calm.",
+    "prevention": "Learn basic first-aid skills and keep a kit at home.",
+    "source": "WHO – First Aid: https://www.who.int/health-topics/first-aid"
+  }
+}
