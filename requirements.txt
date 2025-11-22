@@ -1,0 +1,12 @@
+streamlit
+bcrypt
+pyjwt
+deep-translator
+requests
+rasa
+rasa-sdk
+googletrans==4.0.0-rc1
+sqlite3
+plotly
+pandas
+matplotlib
